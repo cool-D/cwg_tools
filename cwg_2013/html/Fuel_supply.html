@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Symantec - CWG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="Fuel_supply_files/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="Fuel_supply_files/main.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script src="Fuel_supply_files/jquery.js"></script>
+    <script src="Fuel_supply_files/bootstrap.js"></script>
+    <script src="Fuel_supply_files/main.js"></script>
+  </head>
+
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Symantec CWG</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              You are <a href="#" class="navbar-link">keshy</a>
+            </p>
+            <p class="navbar-text pull-right">
+            	<a rel="tooltip" id="time-left-icon" href="#" data-original-title="Time left: 4 hrs 24 mins " data-placement="bottom"><i class="icon icon-time"></i></a>
+            </p>
+            <ul class="nav">
+              <li class="active"><a href="http://172.16.0.243/home">Home</a></li>
+              <li><a href="http://172.16.0.243/progress">Progress</a></li>
+              
+                            
+              <li><a href="http://172.16.0.243/settings">Settings</a></li>
+                            <li><a href="http://172.16.0.243/user/logout">Sign Out</a></li>
+                          </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div><!-- /navbar -->
+ 
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+
+	            <li class="nav-header">Level 1<span class="label label-success label-inline">13 / 13</span></li><li><a href="http://172.16.0.243/level/load_level/905c9d8a48d5b58b3b7d0195a6daa3cf">Mission Brief</a></li><li class="nav-header">Level 2<span class="label label-inline">9 / 10</span></li><li><a href="http://172.16.0.243/level/load_level/b5a26f3ba3506f593f1ab4d99007b30f">Dept. of Health Recon</a></li><li class="nav-header">Level 4<span class="label label-success label-inline">10 / 10</span></li><li><a href="http://172.16.0.243/level/load_level/59c095677ac3705ec4583848e0e9592c">Dept. of Finance Recon</a></li><li class="nav-header">Level 5<span class="label label-inline">8 / 10</span></li><li><a href="http://172.16.0.243/level/load_level/433c96f7cbd437223dea5cd18842b3b3">Dept. of Finance Infiltrate</a></li><li class="nav-header">Level 6<span class="label label-success label-inline">10 / 10</span></li><li><a href="http://172.16.0.243/level/load_level/5b00d9df3543bcbd08370f34c2eeb580">M.E.D.1 Hospital Recon</a></li><li class="nav-header">Level 7<span class="label label-inline">1 / 5</span></li><li><a href="http://172.16.0.243/level/load_level/46fc9c353a856a4c580f2b4283308db7">M.E.D.1 Hospital Infiltrate</a></li><li class="nav-header">Level 8<span class="label label-inline">7 / 10</span></li><li class="active"><a href="http://172.16.0.243/level/load_level/ed089e7ab0c5bfd9a3c571f13ac01ec8">Fuel Supplier Recon</a></li>
+            </ul>
+          </div><!--/.well -->
+          
+          <div class="well">
+          <h4 class="nav-header nav-header-secondary">Your Points</h4>
+          <span class="nav-data">17,850</span>          </div>
+          
+          <div class="well">
+
+          <h4 class="nav-header nav-header-secondary">Your Team</h4>
+<span class="label label-info teammate">Divemaster</span> <span class="label label-info teammate">deb</span> <span class="label label-info teammate">manish</span> <span class="label label-info teammate">keshy</span>          
+          </div>
+          <div class="well"> 
+          <h4 class="nav-header nav-header-secondary">Time Left</h4>
+          <span class="nav-data">4 hrs 24 mins </span>          </div>
+        </div><!--/span-->
+
+        
+        
+        <div class="span9">
+          <div class="hero-unit">
+            <!-- hero box -->
+            <h2>Level 8 - Fuel Supplier Recon</h2>
+            <p>Cyberia's Minister of the Interior has provided the 
+following information to assist you in your upcoming challenges:  
+Cyberia's national fuel supplier, Cretacious Fuel Supply uses the <code>10.1.2.0/24</code> and <code>10.1.1.0/24</code> networks. You'll need this information to procede with your tasks.</p>
+          </div>
+
+          	<!-- flag working list -->
+  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag69</h3>
+              <p class="flag-content">You've been given credentials (username: <code>tankctrl</code> password: <code>a78sdgf8q</code>)
+ to access this host remotely, but you can't seem to login via SSH.  So,
+ you try some different methods knowing that one is bound to work.  
+Determine the protocol for gaining access to this system.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">300 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-success" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 04:26:09</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-01627" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-01627" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-01627">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-0" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="69" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-07125" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-07125" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-07125">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 07125</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/69" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag70</h3>
+              <p class="flag-content">You've logged in, but it doesn't 
+look like much at first glance.  Curious to understand the purpose of 
+this system, you dig into the log directory.  What is the name of the 
+only file in the log directory?</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">300 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-success" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 08:27:01</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-16058" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-16058" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-16058">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-1" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="70" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-11818" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-11818" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-11818">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 11818</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/70" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag71</h3>
+              <p class="flag-content">The contents of that log file are 
+interesting.  It appears to be interacting with another system in a 
+useful way--a way that could be manipulated to your advantage.  What is 
+the IP of the system that most recently accessed this folder?</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">300 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-success" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 08:29:55</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-29251" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-29251" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-29251">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-2" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="71" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-27664" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-27664" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-27664">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 27664</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/71" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag72</h3>
+              <p class="flag-content">Not satisfied, you keep digging. 
+There is another intriguing file somewhere in these folders, but it's 
+easy to overlook.  Provide its MD5 hash/sum.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">500 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-warning" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 20:33:34</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-34473" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-34473" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-34473">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-3" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="72" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-35745" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-35745" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-35745">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 35745</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/72" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag73</h3>
+              <p class="flag-content">What incredible luck!  You've 
+found an extremely useful file left behind by the careless admins.  
+However, you've got to crack it.  What is gknox's password?</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">1,000 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-danger" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-20 06:10:30</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-49893" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-49893" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-49893">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-4" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="73" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-46741" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-46741" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-46741">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 46741</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/73" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag74</h3>
+              <p class="flag-content">As other entities in 
+hyper-connected Cyberia, the National Fuel supplier, Cretaceous Fuel 
+Supply, leverages the Internet to stay connected and enable efficient 
+business communication. One such connected system is the fuel supply 
+tank tracking system. This system provides fuel tank capacity and 
+storage information to authorized suppliers and consumer. The system is 
+publicly accessible at tracker.gas.cyb. See if you can find out what 
+port is used to communicate with the system.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">300 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-success" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 10:13:04</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-58508" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-58508" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-58508">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-5" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="74" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-54544" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-54544" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-54544">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 54544</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/74" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag75</h3>
+              <p class="flag-content">Surely, there is a way to exploit 
+this system and gain additional information or access into the 
+Cretaceous network. Find out what version of software the supply tank 
+tracker is running.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn btn-primary btn-small disabled">Flag Captured</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p></p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">300 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-success" style="width: 100%;"></div></div>
+              <p class="capture-timestamp">Captured:<br>2013-01-19 10:14:28</p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-66172" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-66172" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-66172">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-6" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="75" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-69804" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-69804" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-69804">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 69804</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/75" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag76</h3>
+              <p class="flag-content">The Cretaceous Fuel Supply tank 
+tracker uses a secure API to enable authorized partners to communicate. 
+Each partner is provided a unique 15 character API key used to sign 
+requests to the fuel supply tank tracker. This signature must be 
+included with every request as it is validated to ensure the request is 
+coming from an authorized partner. You should be able to make a few test
+ requests based on information you found in the fuel supply maps 
+belonging to Cretaceous. At least one of the requests in the log file 
+will tell you the current fill status (in gallons) of tank 1. Enter it 
+here.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn" data-toggle="modal" data-target="#flag-submit-modal-71197">Submit Flag</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p><span data-original-title="" class="label label-inverse flag-hint flag-hint-unlocked" data-content="Remember those files you found earlier? Just copy those requests" data-title="Hint 1 Revealed">Hint 1</span>
+</p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">250 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-warning" style="width: 50%;"></div></div>
+              <p class="capture-timestamp"></p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-71197" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-71197" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-71197">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-7" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="76" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-73463" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-73463" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-73463">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 73463</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/76" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag77</h3>
+              <p class="flag-content">Unfortunately, the sample requests
+ you found in the log file only show the status for a few test tanks 
+used by Cretaceous (tanks 0, 1, and 2). You must exploit the tracking 
+system and determine the fill status of real tanks out in the field. 
+Once you've figured out how to exploit the fuel supply tracker, report 
+the fill status of tank 67.</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn" data-toggle="modal" data-target="#flag-submit-modal-82162">Submit Flag</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p><a rel="tooltip" class="next-hint-button" href="#hint-modal-83815" data-toggle="modal" data-original-title="Click to reveal next hint" data-placement="bottom"><span data-original-title="" class="label flag-hint">Hint 1</span></a>
+</p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">1,000 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-danger" style="width: 100%;"></div></div>
+              <p class="capture-timestamp"></p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-82162" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-82162" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-82162">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-8" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="77" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-83815" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-83815" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-83815">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 83815</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/77" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->  <div class="well">
+          <div class="row-fluid">
+            <div class="span9">
+              <h3>Flag78</h3>
+              <p class="flag-content">Great job. You've been able to circumvent the secure API. Find out how many fuel supply tanks Cretaceous has in total?</p>
+	              <div class="span4">
+	              	<p><button type="button" class="btn" data-toggle="modal" data-target="#flag-submit-modal-96487">Submit Flag</button></p>
+	              </div>
+	              <div class="span4 span-hints">
+	              	<p><a rel="tooltip" class="next-hint-button" href="#hint-modal-93321" data-toggle="modal" data-original-title="Click to reveal next hint" data-placement="bottom"><span data-original-title="" class="label flag-hint">Hint 1</span></a>
+</p>
+	              </div>
+                     
+            </div><!--/span-->
+            <div class="span3">
+              <span class="label">500 pts</span>
+              <div class="progress difficulty-bar"><div class="bar bar-warning" style="width: 100%;"></div></div>
+              <p class="capture-timestamp"></p>
+            </div>
+          </div> <!-- /row -->
+
+ 		<!-- Flag Submit Modal -->
+		<div class="modal" id="flag-submit-modal-96487" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-96487" aria-hidden="true">
+			<div class="modal-header">
+				
+				<h3 id="hint-modal-label-96487">Capture This Flag</h3>
+			</div>
+
+			<form action="http://172.16.0.243/home/flag_submit" accept-charset="utf-8" class="form-horizontal" id="flag-submit-form-9" method="POST"><div style="display:none">
+<input name="csrf_token" value="53d7ec503d172ae6595733f78ab57eec" type="hidden">
+</div>
+
+			<div class="modal-body">				
+				<p><input id="flagAnswer" name="answer" placeholder="enter answer" type="text"></p>
+			</div>
+			<div class="modal-footer">
+				<input id="flagId" name="flag" value="78" type="hidden">
+				
+				<button type="submit" class="btn btn-primary">Submit</button>
+			
+			</div></form>			
+		</div>
+		<!-- /flag submit modal -->
+          
+ 		<!-- Hint Modal -->
+		<div class="modal" id="hint-modal-93321" tabindex="-1" role="dialog" aria-labelledby="hint-modal-label-93321" aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<h3 id="hint-modal-label-93321">Are you sure?</h3>
+			</div>
+			<div class="modal-body">
+				<!-- <p>Hint 93321</p> -->
+				<p>Revealing the next hint will reduce the <strong>maximum possible points</strong> for this flag by <strong>50%</strong>.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<a href="http://172.16.0.243/flag/hint/78" class="btn btn-primary">Yes, I'm Sure</a>
+			</div>
+		</div>
+		<!-- /hint modal -->
+
+          
+      </div> <!-- /well -->              
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      <!--/row-->
+    <!--/.fluid-container-->  
+
+</body></html>

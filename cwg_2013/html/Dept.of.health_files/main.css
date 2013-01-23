@@ -1,0 +1,290 @@
+h1 {
+	color: #999;
+}
+
+body {
+	background: #000;
+}
+/*
+* Classes
+*/
+
+.well {
+}
+
+.hidden {
+	display: none;
+}
+
+.label-info {
+	background-color: #08c;
+}
+
+.admin-header {
+	color: #444;
+}
+
+.nav-logo {
+	height: 25px;
+	margin-right: 5px;
+	margin-top: -6px;	
+}
+
+.nav-header-secondary {
+	padding-left: 0px;
+	line-height: 20px;
+	color: #999;
+	font-size: 11px;
+	border-bottom: 1px solid #ddd;	
+	margin-top: -10px;
+}
+
+.nav-data {
+	color: #555;
+	font-family: Monaco, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.container-center {
+	width: 540px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.container-welcome {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.welcome-h1 {
+	font-family: Monaco, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 25px;
+	line-height: 20px;
+	color: #999;
+}
+
+.welcome {
+	font-family: Monaco, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	font-size: 20px;
+	line-height: 20px;
+	color: #777;
+}
+
+.container-leaderboard {
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.level-summary-progress {
+	height: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.level-summary-progress-label {
+	color: #444;
+	float: left;
+	width: 80px;
+	font-size: 12px;
+}
+
+.flag-summary-progress-label {
+	color: #444;
+	float: left;
+	width: 20px;
+	font-size: 12px;
+}
+
+.player-progress-container {
+	margin-top: 10px;
+}
+
+.container-progress {
+	width: 300px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.achievement-table tr {
+	
+}
+.container-progress h2 {
+	color: #08c;
+}
+
+.alert p {
+	margin: 0;
+}
+
+.hero-unit {
+	padding: 30px;
+	background-image: url(/img/symantec_logo_faded20.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.hero-unit p {
+	font-size: 0.9em;
+	line-height: 20px;
+	font-family: Monaco, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.login-header {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.login-header img {
+	margin-left: 15px;
+}
+
+.form-horizontal {
+	text-align: left;
+}
+
+.modal {
+	display: none;
+}
+
+.modal form {
+	margin-bottom: 0px;
+}
+.label-inline {
+	display: inline !important;
+	margin-left: 5px;
+}
+
+.span-hints {
+	margin-top: 3px;
+}
+
+.flag-content {
+	font-family: Monaco, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flag-hint {
+	cursor: pointer;
+}
+
+.flag-hint-unlocked {
+	cursor: help;
+}
+
+a.next-hint-button {
+	text-decoration: none !important;
+}
+
+.capture-timestamp {
+	font-size: 0.9em;
+}
+.difficulty-bar {
+	margin-top: 10px
+}
+.badge {
+	padding: 6px 15px 6px;
+	margin-right: 3px;
+}
+
+.bigboard-body {
+	background: #222;
+	padding-top: 10px;
+}
+
+.bigboard {
+	background: #222;
+	padding: 20px 0;
+	width: 900px;
+}
+
+.bigboard-label {
+	font-size: 2.5em;
+	color: #666;
+	padding-top: 50px;
+	padding-left: 50px;
+	float: left;
+}
+
+.bigboard-brand {
+	float: left;
+	margin-left: 40px;
+}
+
+.bigboard-time {
+	color: #999;
+	float: left;
+	margin-left: 50px;
+	font-size: 4.5em;
+	padding-top: 50px;
+	font-weight: bold;
+}
+
+.bigboard-time-critical {
+	color: #880808;
+	font-weight: bold;
+}
+
+.bigboard-time span {
+	font-size: 0.5em;
+	color: #666;
+}
+
+table.bigboard {
+	border-color: #222;
+	font-size: 50px;
+	color: #ccc;
+}
+
+.bigboard-name {
+	color: #CC7A00;
+}
+
+i.progress-flag {
+	color: #08c;
+}
+
+table.bigboard td {
+	border-top: 0;
+	padding-top: 30px;
+}
+.container-bigboard {
+}
+
+
+.level-desc {
+	font-size: 0.8em;
+}
+
+/*
+* admin
+*/
+
+.admin-table {
+	font-size: 13px;
+}
+
+.admin-table td, .admin-table th {
+	padding: 2px;
+}
+
+.flag-load-example-table {
+	font-size: 10px;
+}
+/*
+* IDs
+*/
+
+#welcome-body {
+	margin: 0px auto;
+	text-align: center;
+	width: 400px;
+}
+#time-left-icon {
+	margin-right: 10px;
+}
+
+#time-left-tooltip {
+	display: none;
+}
