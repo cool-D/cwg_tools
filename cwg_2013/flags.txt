@@ -1,0 +1,194 @@
+Level 1 Recon:
+
+Flag 1: 6
+soln: nmap-armitage
+
+Flag 2: 10.1.7.251
+soln: nmap-armitage
+
+Flag 3: 2.2.22
+soln: nmap-armitage
+
+Flag 4: 10.1.9.251
+soln: nmap-armitage
+
+Flag 5: 192
+soln: friendszone - /people
+
+Flag 6: Avalon
+soln: pictures
+
+Flag 7: ebc9Ad085
+soln: reset password
+
+Flag 8: Cyberia Dept. of Health
+soln: login account
+
+Flag 9: 5.6
+soln: burpsuite 
+
+Flag 11: Romeo Huber
+soln: author - source notepad
+
+Flag 12: fuel_supply_route_map.png
+soln: scan files in cloud_store - 76
+
+Flag 13: logfile.txt 
+soln: source
+
+
+Level 2 Recon:
+
+Flag 14: 10.1.7.251
+SOLN: nmap-armitage
+
+Flag 15: 1.1b
+soln: telnet port 
+
+Flag 16: 12
+soln: EXPN SUPPORT
+
+Flag 17: 101
+soln: EXPN EMPLOYEES
+
+Flag 18: mark.johnson@health.cyb
+soln: EXPN mark.johnson
+
+Flag 19: 10.1.7.201
+soln: nmap-armitage
+
+Flag 20: mark.johnson
+soln: guess :)HEALTH\mark.johnson
+
+Flag 21: C:\Users\mark.johnson\Documents\GasDiagram\secret-netmap.enc
+soln: copy file from above. 
+
+Flag 22: 0e953a518caf7aebf7fd97d95e0a920c
+soln: md5sum <file> -o output
+
+
+Level 4 Recon: 
+
+Flag 34: 10.1.5.251
+soln: nmap-armitage
+
+Flag 35: <URL>/feeds/
+soln: source
+
+Flag 36: PUT
+soln: source
+
+Flag 37: d983hg6d0vn89
+soln: password hack! Write php to extract hex of file to download password
+
+Flag 38: 0.9307
+soln: login with above password
+
+Flag 39: 10.1.5.201
+soln: nmap scan
+
+Flag 40: /interest_rates
+soln: source scan
+
+Flag 41: YKgretKTinWeE
+soln: /htpasswd
+
+Flag 42: Boston
+soln: john the ripper on above password
+
+Flag 43:  e1f1962f1444608456a2bf7ae62f5491
+soln: The sql injection :  H%' OR `released` = 0 AND `name` LIKE '%H
+
+Level 6 Recon:
+
+Flag 54: 10.1.3.251
+soln: nmap-armitage
+
+Flag 55: ipad
+soln: image shows ipad
+
+Flag 56: Authorized M.E.D. 1 Staff Use Only. All Access is Monitored for Unauthorized Activity.
+soln: set user agent for ipad in burpsuite
+
+Flag 57: 213
+soln: QR code
+
+Flag 58: 4909-4053
+soln: browse through all patients for lung transplant
+
+Flag 59: G.Smith
+soln: scan through employee links 
+
+Flag 60: sys_post_read 
+soln: post message and look at source after it is read
+
+Flag 61: Mozilla/5.0 (iPad; CPU OS 5_1 like Mac OS X) AppleWebKit/1337 (KHTML, like Gecko) Version/5.1 Mobile/9B176 Safari/9534.00.3
+soln: set up apache server and post a link to your server. The staff will click the link. Look for user agent in apache access logs.
+
+Flag 62: Action not authorized. Patient procedure changes can only be made from the M.E.D. 1 network.
+Soln: try cancelling an appointment that is scheduled
+
+
+Flag 63: c3e4035a
+soln: hack to ensure the cancellation request comes from within the MED1 network. Confirmation code will show up. Paste cancellation link in the message. 
+
+Level 8 Recon:
+
+Flag 69: SFTP
+soln: nmap-armitage
+
+Flag 70: upload-dbg.log
+soln: sftp explore
+
+Flag 71: 10.1.1.243
+soln: look through logs and sort by timestamp. Find latest entry. 
+
+Flag 72: 144c3956fa216265e4e29644014ad968
+soln: use a special sftp client that can show special characters. File name is secret..extract and submit md5 hash
+
+Flag 73: n3wy0rk3r
+soln: 1000+ levels deep in secret file. Use script to unpack the file. Extract hashdump.txt - passwd file. Crack the md4 hash
+
+Flag 74: 1337
+soln: nmap-armitage
+
+Flag 75: 11.29.76
+soln: telnet to port and look at banner. 
+
+Level 7: Infiltrate
+
+Flag 64: linux
+solne: nmap-armitage
+
+
+
+Level 5: 
+
+Flag 44: 10.1.5.101
+soln: nmap-armitage
+
+Flag 45: 5500
+soln: login and look at balance value
+
+Flag 46: 75
+soln: source
+
+Flag 47: 23815
+soln: directory traversal vulnerability. /get_balance/63
+
+Flag 48: 190
+soln: use script to find out values for all IDs and print only the ones that have a non-zero response. Then use clues in question to narrow down. 
+
+Flag 49: session_id
+soln: burpsuite
+
+Flag 50: 285
+soln: use script in 48 to figure this one out. 
+
+Flag 51: 286854
+soln: use directory traversal vulnerability to get this. 
+
+Flag 52:
+
+Flag 53: 
+
